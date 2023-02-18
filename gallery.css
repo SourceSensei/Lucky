@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+/* Select all */
+
+body {
+  background-color: rgba(188, 110, 21, 0.89);
+  color: #593307;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* Main container for gallery page */
+.container {
+  display: flex;
+  width: 924px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: transparent;
+  padding-top: 12px;
+  padding-bottom: 41px;
+}
+
+/* Second container */
+.container2 {
+  width: 924px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #97581068;
+}
+
+/* Text formatting */
+
+span.mode {
+  color: white;
+  text-shadow: none;
+}
+
+h1,
+h2 {
+  color: #593307b6;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 44px;
+  margin: 30px 0 0 0;
+  text-shadow: 10px 9px 15px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+p {
+  margin: 20px 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #593307;
+}
+
+/* Header */
+
+header nav {
+  text-align: right;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  line-height: 141px;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  padding-right: 40px;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li#logo {
+  float: left;
+}
+
+header nav ul li a:hover {
+  color: #593307;
+  padding: 45px 0;
+  background: url("2.png") top center no-repeat;
+}
+
+header nav ul li#logo {
+  display: block;
+  width: 200px;
+  height: 170px;
+  background: url("lucky_logo_main.png") center center no-repeat;
+  text-indent: -99999px;
+}
+
+/* Gallery panels */
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  -webkit-transition: all 700ms ease-in;
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
+
+/* Footer */
+
+footer.main {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#copyright,
+#credits {
+  width: 240px;
+  padding: 5px;
+  float: left;
+}
+
+#credits {
+  float: right;
+  margin-top: 9px;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+* html .group {
+  zoom: 1;
+} /* IE6 */
+*:first-child + html .group {
+  zoom: 1;
+} /* IE7 */

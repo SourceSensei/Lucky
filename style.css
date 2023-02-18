@@ -1,0 +1,323 @@
+/* everything , you can also use * instead of body selector but for this website i dont recomend */
+
+body {
+  background-color: rgba(188, 110, 21, 0.89);
+  color: #593307;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* main container */
+
+.container {
+  width: 924px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #97581068;
+}
+
+/* Text formatting */
+
+span.mode {
+  color: white;
+  text-shadow: none;
+}
+
+h1,
+h2 {
+  color: #593307b6;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 44px;
+  margin: 30px 0 0 0;
+  text-shadow: 10px 9px 15px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+p {
+  margin: 20px 10px;
+  text-align: left;
+  font-size: 20px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #593307;
+}
+
+/* Header */
+
+header nav {
+  text-align: right;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  line-height: 141px;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  padding-right: 40px;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li#logo {
+  float: left;
+}
+
+header nav ul li a:hover {
+  color: #593307;
+  padding: 45px 0;
+  background: url("2.png") top center no-repeat;
+}
+
+header nav ul li#logo {
+  display: block;
+  width: 200px;
+  height: 170px;
+  background: url("lucky_logo_main.png") center center no-repeat;
+  text-indent: -99999px;
+}
+
+/* Hero */
+
+h1.intro {
+  font-size: 60px;
+  padding: 30px 0;
+}
+
+em#lucky {
+  color: white;
+  text-shadow: none;
+  text-decoration: underline;
+}
+
+#hero {
+  padding: 20px 0 30px 0;
+  margin: 0;
+}
+
+img#hero-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 10px;
+}
+
+/* The story */
+
+#the-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 50px;
+}
+
+#the-story p {
+  width: 50%;
+  text-align: left;
+  padding: 30px 0;
+}
+
+h2#the-story-h2 {
+  text-align: left;
+}
+
+video#the-story-vid {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 10px;
+}
+
+#the-story-container {
+  display: flex;
+  flex-direction: column;
+}
+
+a.btn.btn-primary {
+  background: #593307;
+  color: #fff;
+  padding: 9px 17px;
+  width: 10%;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a#primary.btn.btn-primary {
+  background: #593307;
+  color: #fff;
+  padding: 9px 17px;
+  width: 10%;
+  margin-left: 80px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a#primary.btn.btn-primary:hover {
+  color: #a9610e;
+  background-color: #2c1a06;
+}
+
+/* The gallery */
+
+#gallery {
+  display: flex;
+  padding: 60px 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+#gallery-container {
+  display: flex;
+  display: column;
+}
+
+img#gallery-img {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: -5px 5px 15px 10px;
+}
+
+article#gallery-article {
+  float: right;
+  width: 50%;
+}
+
+h2#gallery-h2 {
+  text-align: right;
+}
+
+p#gallery-p {
+  text-align: right;
+  padding-top: 10px;
+  padding: 30px 0;
+}
+
+a#secondary.btn.btn-primary {
+  background: #593307;
+  color: #fff;
+  padding: 9px 17px;
+  width: 10%;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 180px;
+}
+
+a#secondary.btn.btn-primary:hover {
+  color: #a9610e;
+  background-color: #2c1a06;
+}
+
+/* The Story html page */
+
+h1#main-story-h1 {
+  padding: 50px 0;
+  text-transform: uppercase;
+}
+
+img#the-story-full-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+h2#main-story-h2 {
+  padding: 30px 0px;
+  padding-left: 60px;
+}
+
+p#main-story-p {
+  padding: 0 30px 60px 30px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Footer */
+
+footer.main {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#copyright,
+#credits {
+  width: 240px;
+  padding: 5px;
+  float: left;
+}
+
+#credits {
+  float: right;
+  margin-top: 9px;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+* html .group {
+  zoom: 1;
+} /* IE6 */
+*:first-child + html .group {
+  zoom: 1;
+} /* IE7 */

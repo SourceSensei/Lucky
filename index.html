@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Lucky</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li id="logo"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="the_story.html">The Story</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h1 class="intro" id="text">Welcome!</h1>
+    </div>
+    <div class="container">
+      <div id="hero">
+        <img
+          id="hero-img"
+          src="img/intro.jpg"
+          alt="My beautiful dog"
+          height="700px"
+          width="540px"
+        />
+        <h1 class="intro">My name is <em id="lucky">Lucky</em> !</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div id="the-story" class="clearfix">
+        <div id="the-story-container">
+          <article id="the-story-article">
+            <h2 id="the-story-h2">
+              Do you know my
+              <span class="mode">story</span>?
+            </h2>
+            <p>
+              Hey, have you heard my story? I couldn't talk, so I can't tell you
+              everything about my life from when I was born until now. But let
+              me tell you what I do know. I was lost for a while, but then I got
+              super lucky and found a wonderful home where I've been having lots
+              of adventures ever since. If you want to hear more about my
+              journey, keep reading!
+            </p>
+            <a href="the_story.html" class="btn btn-primary" id="primary"
+              >The Story</a
+            >
+          </article>
+        </div>
+        <video
+          id="the-story-vid"
+          src="img/the_story_video.mp4"
+          width="400px"
+          height="600px"
+          autoplay
+          muted
+        ></video>
+      </div>
+    </div>
+    <div class="container">
+      <div id="gallery" class="clearfix">
+        <div id="gallery-container">
+          <img
+            id="gallery-img"
+            src="img/gallery.jpg"
+            alt="check all the funny moments"
+            height="500px"
+            width="350px"
+          />
+          <article id="gallery-article">
+            <h2 id="gallery-h2">
+              Check all the funny
+              <span class="mode">moments</span>
+            </h2>
+            <p id="gallery-p">
+              Let me tell you something, I'm quite a character. I have so much
+              fun napping, going for walks, and especially eating! If you want
+              to see all the silly moments I've had, check out my awesome
+              gallery. You won't be disappointed!
+            </p>
+            <a href="gallery.html" class="btn btn-primary" id="secondary"
+              >Gallery</a
+            >
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="container clearfix">
+      <footer class="main">
+        <div class="footer clearfix">
+          <div id="copyright">
+            <p>Copyright &copy; 2023 <strong>SourceSensei</strong></p>
+            <p>I made this website for my hairy son Lucky</p>
+          </div>
+          <div id="credits">
+            <p>
+              Coded with love by
+              <a href="https://github.com/SourceSensei">SourceSensei</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="auto_text_index_script.js"></script>
+  </body>
+</html>

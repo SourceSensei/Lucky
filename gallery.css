@@ -159,17 +159,93 @@ header nav ul li#logo {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .container {
-    width: 100vw;
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0;
+    background-color: transparent;
+    padding-top: 12px;
+    padding-bottom: 41px;
+  }
+
+  /* Second container */
+  .container2 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #975810f3;
   }
 
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
   }
-}
 
+  body {
+    background-color: rgba(188, 110, 21, 0.89);
+    color: #593307;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  /* Header */
+
+  header nav {
+    text-align: right;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+  }
+
+  header nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 100px;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    padding: 20px 0;
+    padding-right: 10px;
+  }
+
+  header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  li#logo {
+    float: left;
+    height: 50px;
+    width: 40px;
+  }
+
+  header nav ul li#logo {
+    display: block;
+    width: 130px;
+    height: 120px;
+    background: url("lucky_logo_main.png") center center no-repeat;
+    text-indent: -99999px;
+  }
+
+  footer.main {
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
 /* Footer */
 
 footer.main {

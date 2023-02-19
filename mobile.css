@@ -1,0 +1,328 @@
+@media screen and (max-width: 500px) {
+  body {
+    background-color: rgba(188, 110, 21, 0.89);
+    color: #593307;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    height: 100%;
+  }
+  /* main container */
+
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #97581068;
+  }
+
+  /* Text formatting */
+
+  span.mode {
+    color: white;
+    text-shadow: none;
+  }
+
+  h1,
+  h2 {
+    color: #593307b6;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    line-height: 30px;
+    text-shadow: 10px 9px 15px;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  a:link {
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  /* Header */
+
+  header nav {
+    text-align: right;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+  }
+
+  header nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 100px;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    padding: 20px 0;
+    padding-right: 10px;
+  }
+
+  header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  li#logo {
+    float: left;
+    height: 50px;
+    width: 40px;
+  }
+
+  header nav ul li#logo {
+    display: block;
+    width: 130px;
+    height: 120px;
+    background: url("lucky_logo_main.png") center center no-repeat;
+    text-indent: -99999px;
+  }
+
+  /* Hero */
+
+  h1.intro {
+    font-size: 40px;
+    padding: 10px 0;
+  }
+
+  em#lucky {
+    color: white;
+    text-shadow: none;
+    text-decoration: underline;
+  }
+
+  #hero {
+    padding: 20px 0 30px 0;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  img#hero-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 10px;
+  }
+
+  /* The story */
+
+  #the-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+  }
+
+  #the-story p {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+
+  h2#the-story-h2 {
+    text-align: left;
+  }
+
+  video#the-story-vid {
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 10px;
+    height: 300px;
+    margin-top: 40px;
+  }
+
+  #the-story-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a.btn.btn-primary {
+    background: #593307;
+    color: #fff;
+    padding: 9px 17px;
+    width: 10%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  a#primary.btn.btn-primary {
+    background: #593307;
+    color: #fff;
+    padding: 9px 17px;
+    width: 10%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  /* The gallery */
+
+  #gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: flex-end; /* Change this line */
+  }
+
+  img#gallery-img {
+    width: 50%;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: -5px 5px 15px 10px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  article#gallery-article {
+    width: 100%;
+  }
+
+  h2#gallery-h2 {
+    text-align: right;
+  }
+
+  p#gallery-p {
+    text-align: right;
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+
+  a#secondary.btn.btn-primary {
+    background: #593307;
+    color: #fff;
+    padding: 9px 17px;
+    width: 10%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  /* The Story html page */
+
+  h1#main-story-h1 {
+    padding: 50px 0;
+    text-transform: uppercase;
+  }
+
+  img#the-story-full-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  h2#main-story-h2 {
+    padding: 30px 0px;
+    padding-left: 60px;
+  }
+
+  p#main-story-p {
+    padding: 0 30px 60px 30px;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  /* The Story html page */
+
+  h1#main-story-h1 {
+    padding: 30px 0;
+    text-transform: uppercase;
+  }
+
+  img#the-story-full-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 10px;
+    margin-top: 40px;
+    height: 300px;
+    width: 300px;
+  }
+
+  h2#main-story-h2 {
+    padding: 30px 0px;
+    padding-left: 60px;
+    font-size: 25px;
+  }
+
+  p#main-story-p {
+    padding: 0 30px 60px 30px;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  /* Footer */
+
+footer.main {
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 0;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+  /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+  }
+  * html .group {
+    zoom: 1;
+  } /* IE6 */
+  *:first-child + html .group {
+    zoom: 1;
+  } /* IE7 */
+}

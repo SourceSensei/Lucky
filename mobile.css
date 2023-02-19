@@ -110,6 +110,10 @@
     padding: 10px 0;
   }
 
+  h1#Lucky.intro {
+    font-size: 30px;
+  }
+
   em#lucky {
     color: white;
     text-shadow: none;

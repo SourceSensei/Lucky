@@ -12,7 +12,7 @@
   /* main container */
 
   .container {
-    width: 400px;
+    width: 360px;
     margin: 0 auto;
     padding: 0px;
     background-color: #97581068;
@@ -301,14 +301,14 @@
 
   /* Footer */
 
-footer.main {
-  background-color: black;
-  box-sizing: border-box;
-  border-radius: 0;
-  color: white;
-  padding-top: 10px;
-  padding-left: 10px;
-}
+  footer.main {
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 0;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
 
   /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
 

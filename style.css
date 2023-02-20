@@ -71,7 +71,7 @@ a:hover {
 header nav {
   text-align: right;
   box-sizing: border-box;
-  border-radius: 15px;
+  border-radius: 0 0 10px 10px;
   background-color: black;
   color: white;
 }
@@ -119,6 +119,7 @@ header nav ul li#logo {
 h1.intro {
   font-size: 60px;
   padding: 30px 0;
+  margin: 0;
 }
 
 em#lucky {
@@ -288,7 +289,7 @@ p#main-story-p {
 
 footer.main {
   background-color: black;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   color: white;
   padding-top: 10px;
   padding-left: 10px;
